@@ -4,22 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>API Table</title>
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>API Table with CRUD</h1>
+  
   <table id="dataTable">
     <thead id="tableHead">
-      
+      <!-- Dynamic Table Head will be inserted by jQuery -->
     </thead>
     <tbody id="tableBody">
-      
+      <!-- Dynamic Table Body will be inserted by jQuery -->
     </tbody>
   </table>
+  
   <button id="addButton">Add New Item</button>
 
- 
-  <div id="modal">
+  
+  <div id="modal" style="display:none;">
     <h2 id="modalTitle">Add/Edit Item</h2>
     <div id="formContainer">
    
